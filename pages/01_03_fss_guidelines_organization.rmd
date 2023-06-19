@@ -17,6 +17,8 @@ These guidelines provide several use cases (quantitative and qualitative) that s
 
 #### Simple quantitative research project using Research Drive and Yoda
 
+[Get the sample DMP for this use case here.](sample_dmps/FSS_Data_Organization_Guidelines-_Simple_Quantitative.pdf)
+
 This use case describes a fictional project using survey data. It uses Yoda for archiving only; for storage of data the project uses Research Drive. While Yoda is suitable for storage as well, Research Drive offers more fine-grained access control, which this fictional project needs to make sure student-assistants can’t access all information stored on the research drive.
 Research drive is used for day-to-day storage and synced to researcher’s devices using the OwnCloud software. The folder is organized as follows:
 
@@ -28,6 +30,7 @@ Research drive is used for day-to-day storage and synced to researcher’s devic
 Yoda is used in this project for archiving, and is thus not synced to any devices. Directly following data collection, the raw data was pseudonymized. The pseudonymized data was stored on Research Drive. The raw, unpseudonymized data was archived on Yoda, assigned to the Vault and permanently deleted everywhere else. This ensures that a copy of the original data is always available, and minimizes the risk of leaking unpseudonymized data.
 
 Once a paper based on the data is published, a folder is created for that paper with all things that can be shared publicly. This folder copies the Yoda metadata of the root folder, making complying with the FAIR principles very easy. The folder is made public on Yoda and looks as follows:
+
  - Raw data (Vault) 
 	- Data files
 	- Documentation
