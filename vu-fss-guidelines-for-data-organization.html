@@ -158,6 +158,7 @@
 <h3>Quantitative<a href="vu-fss-guidelines-for-data-organization.html#quantitative" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="simple-quantitative-research-project-using-research-drive-and-yoda" class="section level4 hasAnchor">
 <h4>Simple quantitative research project using Research Drive and Yoda<a href="vu-fss-guidelines-for-data-organization.html#simple-quantitative-research-project-using-research-drive-and-yoda" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><a href="sample_dmps/FSS_Data_Organization_Guidelines-_Simple_Quantitative.pdf">Get the sample DMP for this use case here.</a></p>
 <p>This use case describes a fictional project using survey data. It uses Yoda for archiving only; for storage of data the project uses Research Drive. While Yoda is suitable for storage as well, Research Drive offers more fine-grained access control, which this fictional project needs to make sure student-assistants can’t access all information stored on the research drive.
 Research drive is used for day-to-day storage and synced to researcher’s devices using the OwnCloud software. The folder is organized as follows:</p>
 <ol style="list-style-type: decimal">
@@ -167,16 +168,22 @@ Research drive is used for day-to-day storage and synced to researcher’s devic
 <li><strong>Admin</strong> Project admin information, such as budgets; not accessible to students</li>
 </ol>
 <p>Yoda is used in this project for archiving, and is thus not synced to any devices. Directly following data collection, the raw data was pseudonymized. The pseudonymized data was stored on Research Drive. The raw, unpseudonymized data was archived on Yoda, assigned to the Vault and permanently deleted everywhere else. This ensures that a copy of the original data is always available, and minimizes the risk of leaking unpseudonymized data.</p>
-<p>Once a paper based on the data is published, a folder is created for that paper with all things that can be shared publicly. This folder copies the Yoda metadata of the root folder, making complying with the FAIR principles very easy. The folder is made public on Yoda and looks as follows:
-- Raw data (Vault)
-- Data files
-- Documentation
--Yoda metadata
-- Replication files for each paper (Public):
-- Author manuscript of paper
-- Analysis and pseudonymization scripts
-- Documentation
-- Yoda metadata</p>
+<p>Once a paper based on the data is published, a folder is created for that paper with all things that can be shared publicly. This folder copies the Yoda metadata of the root folder, making complying with the FAIR principles very easy. The folder is made public on Yoda and looks as follows:</p>
+<ul>
+<li>Raw data (Vault)
+<ul>
+<li>Data files</li>
+<li>Documentation
+-Yoda metadata</li>
+</ul></li>
+<li>Replication files for each paper (Public):
+<ul>
+<li>Author manuscript of paper</li>
+<li>Analysis and pseudonymization scripts</li>
+<li>Documentation</li>
+<li>Yoda metadata</li>
+</ul></li>
+</ul>
 <p>Note that the data itself is not publicly available because of privacy concerns. The raw data is only archived for verification purposes. In case of doubts about the research integrity, the Raw Data’s DOI (listed in each paper’s data statement and replication files’ metadata) can be used to quickly identify the data set for verification purposes.</p>
 </div>
 </div>
@@ -264,14 +271,14 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["RDM Pages.pdf", "RDM Pages.epub"],
+"download": null,
 "search": {
 "engine": "fuse",
 "options": null
 },
 "toc": {
 "collapse": "section",
-"toc_depth": 4,
+"toc_depth": 5,
 "toc_float": true,
 "scroll_highlight": true
 }
