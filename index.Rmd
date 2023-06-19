@@ -6,8 +6,8 @@ site: bookdown::bookdown_site
 documentclass: book
 description: |
   These are the RDM Pages for the faculty of Social Sciences.
-url: "https://kleuveld.github.io/rdm-pages/"
-github-repo: "kleuveld/rdm-pages"
+url: "https://vu-fss.github.io/rdm/"
+github-repo: "/vu-fss/rdm"
 ---
 
 

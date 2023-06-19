@@ -3,7 +3,7 @@ bookdown::gitbook:
   fig_caption: false
   config:
     edit:
-      link: "https://github.com/kleuveld/rdm-pages/edit/main/%s"
+      link: "https://github.com/vu-fss/rdm/edit/main/%s"
       text: "Suggest edits"
     toc:
       toc_depth: 4
@@ -16,3 +16,14 @@ bookdown::gitbook:
       facebook: no
       twitter: no
       all: no
+bookdown::pdf_book:
+  number_sections: true
+  includes:
+    in_header: assets/preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: no
+  fig_caption: false
+  highlight: default
+  urlstyle: tt
+bookdown::epub_book: default
