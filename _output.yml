@@ -6,11 +6,11 @@ bookdown::gitbook:
       link: "https://github.com/vu-fss/rdm/edit/main/%s"
       text: "Suggest edits"
     toc:
-      toc_depth: 4
+      toc_depth: 5
       toc_float: true
       collapse: section
       scroll_highlight: true
-    download: ["pdf", "epub"]
+    download: no
     sharing:
       github: yes
       facebook: no
@@ -18,8 +18,6 @@ bookdown::gitbook:
       all: no
 bookdown::pdf_book:
   number_sections: true
-  includes:
-    in_header: assets/preamble.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: no
