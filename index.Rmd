@@ -22,6 +22,9 @@ local({r <- getOption("repos")
        options(repos=r)
 })
 ```
-# 
 
-Welcome to the RDM pages of VU FSS
+# (PART\*) Intro {-}
+
+# About
+
+Welcome to the RDM pages of VU FSS. These pages contain the latest updates to policies and guides, maintained by the faculty Data Steward
