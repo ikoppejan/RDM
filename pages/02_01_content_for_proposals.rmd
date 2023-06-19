@@ -1,3 +1,5 @@
+# (PART\*) Knowledge Base {-}
+
 # Content for proposals: Privacy, ethics and data management
 
 This document contains example texts to be used in proposals. The text should be adapted to the specific project for as much as possible.
