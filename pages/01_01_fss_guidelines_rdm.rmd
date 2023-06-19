@@ -261,14 +261,15 @@ Rules, regulations and guidelines
 Policy comparions
 -->
 
-[fss-vu]: policy-comparisons.html
-[fss-dsw]: policy-comparisons.html
-[fss-coc]: policy-comparisons.html
-[fss-fair]: policy-comparisons.html
-[fss-abv]: policy-comparisons.html
-[fss-nsv]: policy-comparisons.html
-[fss-nkwp]: policy-comparisons.html
-[fss-aom]: policy-comparisons.html
+[fss-coc]: policy-comparisons.html#netherlands-code-of-conduct-for-research-integrity-standards-for-good-research-practices
+[fss-vu]: policy-comparisons.html#vu-rdm-policy
+[fss-dsw]: policy-comparisons.html#guideline-for-the-archiving-of-academic-research-for-faculties-of-behavioural-and-social-sciences-in-the-netherlands
+
+[fss-fair]: policy-comparisons.html#fair-principles
+[fss-abv]: policy-comparisons.html#guidelines-for-anthropological-research-data-management-ethics-and-integrity
+[fss-aom]: policy-comparisons.html#academy-of-management-code-of-ethics
+[fss-nkwp]: policy-comparisons.html#beroepscode-nederlandse-kring-voor-wetenschap-der-politiek
+[fss-nsv]: policy-comparisons.html#beroepscode-nederlandse-sociologische-vereniging
 
 
 <!-- 

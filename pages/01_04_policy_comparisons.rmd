@@ -29,8 +29,8 @@ This page contains comparisons between the FSS RDM Guidelines and the various re
 
 ```{r, echo=F, message = FALSE, results="asis"}
 
-for (i in 1:length(meta)){
-   cat(paste("<h2>",meta$code_name[i]),"</h2>")
+for (i in 1:nrow(meta)){
+   cat(paste("##",meta$code_name[i]),"\n\n")
    cat(paste("<b>Date:</b>",meta$code_date[i],"<br>"))
    cat(paste("<b>Last reviewed:</b>",meta$accessed_on[i],"<br>"))
    cat(paste("<b>URL:</b>",meta$url[i],"<br>"))
