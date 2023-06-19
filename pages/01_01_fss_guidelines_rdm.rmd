@@ -69,14 +69,12 @@ These guidelines apply to all faculty staff members who conduct research in the 
 
 - Researchers must follow the [ethics review procedure][rerc] of the Research Ethics Review Committee (RERC).
 - Researchers must write a Data Management plan (DMP) using [https://dmponline.vu.nl](https://dmponline.vu.nl)), so that they can easily provide an up-to-date version to their department head at any moment.
-
 <!--
 	SO:
 	- I don’t think it helps the Researcher to know that this is provided by the Library, what matters is that they have to fill in DMP Online. Also, if everyone has to fill DMP online, then the rest of the sentence is not necessary… this is already archived in a central place? 
 	- I cannot see the template unless I open an account. Are these templates simple? I think the rule should be that for simple projects we should require a very simple DMP.
 	- Who approves the plan? Only the Researcher? Or the HoD also has to approve? Then maybe they should be all archived in a central directory?
 -->
-
 - Researchers shall ensure that all planned activities with personal data comply with GDPR. In particular:
 	- They must plan to take appropriate technical and organization measures to secure data. Because of the wide variety of data used in the faculty, there is not one answer as to what measures are appropriate. Researchers should discuss the measures they take with colleagues, department heads, with the faculty data steward, privacy champion and/or the [RDM support desk][rdmsupport].
 	<!-- SO: Data steward: connect to page -->
@@ -107,9 +105,7 @@ These guidelines apply to all faculty staff members who conduct research in the 
 - Researchers shall keep their DMP up to date.
 - Researchers should ensure that their data is stored in such a way that it can later be archived in accordance with section 3.3 of these guidelines without excessive effort. This includes:
 	- Ensuring data is well-organized (for more information, see the [FSS Guidelines on Data Organization][fss-guidelines-organization]);
-
 <!-- This should be linked also to the “Before” phase, so that Researchers can better prepare the DMP? -->
-
 	- Data is stored in the same place as vital documentation. Depending on the discipline of the researcher, this can include interviewer guides, questionnaires, topic lists, sampling information, power calculations, etc.
 	- Making sure the data is accompanied by a basic "Readme File" containing basic metadata such as an explanation of the purpose of the data, who is responsible for collecting it, and how the folder is organized, etc.
 - Researchers must ensure that data is reliably, traceably and securely stored throughout the research life cycle. The VU offers storage infrastructure that meets these requirements (see the [storage finder][storage-finder]). If project data needs to be stored elsewhere (for example with project partners), researchers must ensure that the storage solution chosen meets these requirements. The data steward will help in this assessment.
