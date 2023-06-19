@@ -24,7 +24,7 @@ classoption: "aspectratio=169"
 
 # New RDM Policy this year
 
-- Draft approved by Faculty board, available at: [https://vu-fss.github.io/rdm](https://vu-fss.github.io/rdm)
+- Draft approved by Faculty board, available at: [https://vu-fss.github.io/RDM/](https://vu-fss.github.io/RDM/)
 - Consolidates various existing policies into a coherent set of guidelines
   - GDPR
   - National Code of Conduct Research Integrity
