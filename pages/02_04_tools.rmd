@@ -1,0 +1,25 @@
+# Tools
+
+The figure below gives an overview of the tools that are available throughout the research lifecycle. 
+
+![RDM Tools](assets/rdm_tools.png "RDM Tools")
+
+Faculty-specific advice and guidance on which tools are recommended is provided in the table below. If you would like to use other tools, feel free to contact the [Faculty Data Steward][datasteward] for more information. More general information about the data management tools provided by the VU can be found on the [Research Data Support Portal][RDS-tools]. Information about costs can be found [here][storage-costs]. 
+
+```{r tool_details, echo=F, message = FALSE}
+library(tidyverse)
+read_csv("assets/tool_details.csv") %>%
+kable()
+```
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+﻿Tool,FSS Guidance,How to get started
+DMP Online,"All work you do on data needs to be covered by a DMP in the VU template on DMP Online. This is because both your department head and the Dutch privacy regulator need to be able to have insight into what happens to the data used in the faculty. This is facilitated by DMP Online.
+
+If, for whatever reason, you have a DMP elsewhere, you can fill out the shortened ""GDPR registration form"" on DMP Online to ensure transparency.","Just visit https://dmponline.vu.nl, log in with your institutional credentials, and start writing!
+
+If you are not sure about what to enter, you can always schedule a session with the Faculty Data Steward."
+Yoda,"Yoda is the preferred solution for storing and archiving data at FSS. It is rated for sensitive data, can be used with (external) collaborators, and allows for secure access both on and off campus. 
+
+Data can be added to a ""vault"" to preserve a persistent copy. This copy can be assigned metadata, a DOI,and (optionally) be published.","Visit yoda.vu.nl, fill out the request form, and the functional manager of yoda will schedule an intake with you."
+OSF,"The OSF is great for making your work more transparent, pre-resgistering studies and publishing data. ","There is much information on OSF.io; VU has an institutional account with the OSF, meaning you can log in with your VU credentials."
