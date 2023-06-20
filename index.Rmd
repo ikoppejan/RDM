@@ -27,4 +27,99 @@ local({r <- getOption("repos")
 
 # About
 
-Welcome to the RDM pages of VU FSS. These pages contain the latest updates to policies and guides, maintained by the faculty Data Steward
+Welcome to the RDM pages of VU FSS. These pages contain the latest updates to policies and guides, maintained by the faculty Data Steward.
+
+
+
+
+
+<!---
+Links
+-->
+
+
+<!-- Faculty Pages -->
+
+[rerc]: https://vu.nl/en/employee/social-sciences-getting-started/research-ethics-review-fss
+[self-check]: https://vuletteren.eu.qualtrics.com/jfe/form/SV_6hCj2czIWzboW6V
+[fss-rdm-info]: https://vu.nl/en/employee/social-sciences-getting-started/data-management-fss
+[fss-archiving]: https://github.com/kleuveld/rdm_pages/blob/fss_rdm_policy/_documents/fss_archiving_guidelines.md
+[fss-rdm-policy]: https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/4d95b39d-42d0-49c3-8797-382ed7767549/FSW%20Datamanagementbeleid%20ENG.pdf
+
+
+[fss-guidelines-archiving]: vu-fss-guidelines-for-archiving-data.html
+[fss-guidelines-organization]: vu-fss-guidelines-for-data-organization.html
+
+
+<!-- VU-wide Resources -->
+
+[libguide]: https://libguides.vu.nl/rdm
+[rds-portal]: https://vu.nl/nl/medewerker/research-data-support
+[storage-costs]: https://vu.nl/en/about-vu/more-about/costs-research-en-archiving-storage
+
+
+<!---
+Rules, regulations and guidelines
+-->
+
+[gdpr]: https://gdpr-info.eu
+[dsw-guidelines]: https://vunl-my.sharepoint.com/:b:/g/personal/k_leuveld_vu_nl/EUjMpC_8Yy5HsIkhFZ8SMecB9mET_yO0xgBh8rtbdjvw3g?e=QIw5Qg
+[erc-guidelines]: https://ec.europa.eu/research/participants/data/ref/h2020/other/hi/oa-pilot/h2020-hi-erc-oa-guide_en.pdf
+[vu-rdm-policy]: https://libguides.vu.nl/ld.php?content_id=32045526
+[nlcoc]: https://doi.org/10.17026/dans-2cj-nvwu
+[eucouncilopendata]: https://data.consilium.europa.eu/doc/document/ST-9526-2016-INIT/en/pdf
+[fairprinciples]: https://www.go-fair.org/fair-principles/
+[ABV-guidelines]: https://antropologen.nl/app/uploads/2019/01/guidelines-for-anthropological-research.pdf
+[NSV-guidelines]: https://www.nsv-sociologie.nl/?page_id=17
+[nkwp-guidelines]: http://politicologie.nl/wp-content/uploads/2021/10/Beroepscode-2008.doc
+[aom-guidelines]: https://aom.org/about-aom/governance/ethics/code-of-ethics
+
+
+<!---
+Policy comparions
+-->
+
+[fss-coc]: policy-comparisons.html#netherlands-code-of-conduct-for-research-integrity-standards-for-good-research-practices
+[fss-vu]: policy-comparisons.html#vu-rdm-policy
+[fss-dsw]: policy-comparisons.html#guideline-for-the-archiving-of-academic-research-for-faculties-of-behavioural-and-social-sciences-in-the-netherlands
+
+[fss-fair]: policy-comparisons.html#fair-principles
+[fss-abv]: policy-comparisons.html#guidelines-for-anthropological-research-data-management-ethics-and-integrity
+[fss-aom]: policy-comparisons.html#academy-of-management-code-of-ethics
+[fss-nkwp]: policy-comparisons.html#beroepscode-nederlandse-kring-voor-wetenschap-der-politiek
+[fss-nsv]: policy-comparisons.html#beroepscode-nederlandse-sociologische-vereniging
+
+
+
+
+<!-- 
+  Tools
+-->
+
+[RDS-tools]: https://vu.nl/en/about-vu/more-about/rdm-tools 
+[dmponline]: https://dmponline.vu.nl
+[storage-finder]: https://vu.nl/en/research/storagefinder
+[yoda]: https://yoda.vu.nl
+
+[sdcmicro]: https://sdcpractice.readthedocs.io/en/latest/sdcMicro.html
+[amnesia]: https://amnesia.openaire.eu/
+[storage-finder]: https://vu.nl/en/research/storagefinder
+[cryptomator]: https://cryptomator.org/
+
+
+
+
+<!-- Templates -->
+
+[privacystatement_nl]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ESBLrBcDrLhLpzfiVI8nHmUB76Deu6chNA3xehbSeOnemw?e=OA1jdu
+[privacystatement_en]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EYTq4TISYv5ElJJzSRxC7IcByRFwKCzlMy8EAiOvBXpZmw?e=PIN51k
+[informedconsent_nl]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/ERBn_xahKvlLkDUK-U_tftEBotu01tkqAGJEmek6QaW7bA?e=bzCJmT
+[informedconsent_en]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/EWwt5dMHAfJNgoKtxCfiwBYBi_vH0cad1g6XIrHhyFPE0g?e=zfMy3k
+
+
+
+<!-- Contacts -->
+
+[rdmsupport]: mailto:RDM@vu.nl 
+[datasteward]: mailto:k.leuveld@vu.nl
+[privacychampion]: mailto:k.leuveld@vu.nl
