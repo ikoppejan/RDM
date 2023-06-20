@@ -1,9 +1,6 @@
 # Policy Comparisons
 
 ```{r, include=FALSE}
-library(tidyverse)
-library(kableExtra)
-library(stringr)
 
 comparisons <-
    read_csv("assets/policy_comparisons.csv")
