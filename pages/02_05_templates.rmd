@@ -1,0 +1,32 @@
+# Templates
+
+## Data Management Plans
+
+The University Library manages [DMP Online][dmponline] so that all templates are up-to-date. It is advisable to use the VU template whenever possible (this is accepted by ZonMW and NWO instead of their own templates).
+
+Filled in examples can be found in the following places:
+
+- There is a page with public DMPs on [DMP Online][dmponline-public]. You are encouraged to make your own DMP public as well.
+- The LIBER Research Data Management Working Group maintains [a page with example DMPS][liber-dmps]. These focus mostly on economics, but may be of use to other Social Scientists as well.
+- The [FSS Guidelines for Data Organization][fss-guidelines-organization] include an example DMP for each use case.
+
+## Informed consent
+
+Before collecting data, you are required to inform your respondents about what data you will collect, and what you intend to do with it. This can be through the use of a signed informed consent form, but this is not needed. In any case, the consent should be *demonstrable*. Ticking a box prior to an electroninc survey, clearly stating in a recording “I agree to be interviewed” (it is wise to separate this from the research data) or sending an email with the same text all are valid forms of consent.
+
+Whatever form you choose, you need to make sure your respondents are well informed. For this, there are the following documents:
+
+- **Informed Consent Form** ([English][informedconsent_en]/[Dutch][informedconsent_nl]): this form can given to respondents, and should be kept on file (preferably digitally) for the duration of the use of the data.
+- **Privacy Statement** ([English][privacystatement_en]/[Dutch][privacystatement_nl]): You can send interviewees a privacy statement by email prior to interviews, or put a link to a detailed privacy statement in a digital survey, and then ask the respondent whether they agree to be interviewed. If you collect particularly sensitive data (especially special categories) or do sensitive things with the data (like publishing) make sure to mention this in the question, so repsondents explicitly consent to this.
+
+The [Faculty Data Steward][datasteward] can help you find the right way to inform your respondents and obtaining their consent.
+
+
+## Data Protection Impact Assessment
+
+A Data Protection Impact Assessment (DPIA) is a systematic process that helps identify, assess, and mitigate the risks associated with the processing of personal data. While it is never a bad idea to do a DPIA, in some cases it's mandatory. To check whether you need to do a DPIA, you can fill out the [pre-DPIA tool][pre-dpia]. If the result is that a DPIA is needed, you can contact the [Faculty Data Steward][datasteward] to assist in drafting one, or have a look at the [DPIA template][dpia].
+
+
+
+
+
