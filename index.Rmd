@@ -128,6 +128,8 @@ Policy comparions
 [liber-dmps]: https://libereurope.eu/working-group/research-data-management/plans/
 [dmponline-public]: https://dmponline.vu.nl/public_plans
 
+
+[datasharingstatement]: https://vunl.sharepoint.com/:w:/s/FSW-OE-ResearchOfficeFSS/Ef6ZP4Z0jX1EoiUuIdGJ7X4BjdeYnBz4LPhtEvVJK7gHKg?e=AVOzH1
 <!-- Contacts -->
 
 [rdmsupport]: mailto:RDM@vu.nl 

@@ -26,7 +26,9 @@ The [Faculty Data Steward][datasteward] can help you find the right way to infor
 
 A Data Protection Impact Assessment (DPIA) is a systematic process that helps identify, assess, and mitigate the risks associated with the processing of personal data. While it is never a bad idea to do a DPIA, in some cases it's mandatory. To check whether you need to do a DPIA, you can fill out the [pre-DPIA tool][pre-dpia]. If the result is that a DPIA is needed, you can contact the [Faculty Data Steward][datasteward] to assist in drafting one, or have a look at the [DPIA template][dpia].
 
+## Agreements
 
+- [Data Sharing Statement][datasharingstatement]: if students (or student assistants) work on sensitive data, it is wise to have them sign a statement that they will treat the data confidentially.
 
 
 
