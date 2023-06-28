@@ -28,11 +28,10 @@ This page contains comparisons between the FSS RDM Guidelines and the various re
 
 for (i in 1:nrow(meta)){
    cat(paste("##",meta$code_name[i]),"\n\n")
-   cat(paste("<b>Date:</b>",meta$code_date[i],"<br>"))
-   cat(paste("<b>Last reviewed:</b>",meta$accessed_on[i],"<br>"))
-   cat(paste("<b>URL:</b>",meta$url[i],"<br>"))
-   render_table(org=meta$id[1],colnames = c(meta$short_name[i],"FSS"))
-
+   cat(paste("**Date:**",meta$code_date[i],"\n\n"))
+   cat(paste("**Last reviewed:**",meta$accessed_on[i],"\n\n"))
+   cat(paste("**URL:**",meta$url[i],"\n\n"))
+   render_table(org=meta$id[i],colnames = c(meta$short_name[i],"FSS"))
+   cat("\n")
 }
-
 ```
