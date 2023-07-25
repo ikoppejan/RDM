@@ -1,5 +1,5 @@
 --- 
-title: "RDM Pages"
+title: "Research Support Office"
 author: "FSW Data Steward | Last updated: `r Sys.Date()`"
 date: '`r format(Sys.time(), "%d %B %Y")`'
 site: bookdown::bookdown_site
@@ -34,28 +34,30 @@ local({r <- getOption("repos")
 # Index
 
 
-1. **Plan & Design**
-  - [External Funding Opportunities and Support (R & M)](#external-funding)
-  - [Content for proposals: Ethics, Privacy, RDM](#proposal-content-rdm)
-  - Budget 
-  - Impact
-2. **Starting a new project (Time to Grant)**
-  - [Awarded, then what?](#awarded-then-what)
-  - [Ethics, Data Management and Privacy](#new-rdm)
-3. **Managing you ongoing projects**
-  - [Changes](#ongoing-changes)
-  - [RDM: Data Organization](#ongoing-rdm)
-4. **Reporting,  publishing, and Impact**
-  - [PURE](#completed-pure)
-  - [VU FSS guidelines for archiving data](#completed-rdm)
-5. **Knowledge and Guidelines**
+- **Support throughout the Research Cycle**
+  1. **Plan & Design**
+    - [External Funding Opportunities and Support (R & M)](#external-funding)
+    - [Content for proposals: Ethics, Privacy, RDM](#proposal-content-rdm)
+    - Budget 
+    - Impact
+  2. **Starting a new project (Time to Grant)**
+    - [Awarded, then what?](#awarded-then-what)
+    - [Ethics, Data Management and Privacy](#new-rdm)
+  3. **Managing ongoing projects**
+    - [Changes](#ongoing-changes)
+    - [RDM: Data Organization](#ongoing-rdm)
+  4. **Reporting,  publishing, and Impact**
+    - [PURE & VU Research Portal](#completed-pure)
+    - [VU FSS guidelines for archiving data](#completed-rdm)
+    - [Support for generating research impact](#impact)
+- **Knowledge and Guidelines**
   - [Templates](#templates)
   - RDM
     - [Data Management Policy](#rdm-policy)
     - [RDM FAQ](#rdm-faq)
     - [RDM Tools](#rdm-tools)
-    - [A Guide to FAIR data](#rdm-fair)
-  - Ethics Review
+  - [A Guide to FAIR data](#rdm-fair)
+  - [Ethics Review](#ethics-review)
   - Privacy
 
 
