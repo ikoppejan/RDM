@@ -1,4 +1,4 @@
-# The FSS Guide to FAIR Data
+# RDM: An FSS Guide to FAIR Data {#rdm-fair}
 
 The [FAIR principles](https://www.nature.com/articles/sdata201618) are a set of principles that guide researchers in making their data (or other research outputs) more valuable by increasing visibility, fostering collaboration, facilitating co-creation, and promoting transparency. To effectively implement the FAIR principles, it is beneficial to envision how your data will be reused, and then apply each principle accordingly. This involves ensuring discoverability of your data by end users, enabling easy access, facilitating integration with existing knowledge and workflows, and promoting its reuse.
 

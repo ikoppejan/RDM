@@ -1,43 +1,16 @@
-# (PART\*) Policies and Guidelines {-}
-
-# VU FSS guidelines for data management
+# RDM: VU FSS guidelines for data management {#rdm-policy}
 
 <!---
 author: Koen Leuveld
-compile with Pandoc
-File history can be found in the git repo: https://github.com/kleuveld/rdm_pages
+File history can be found in the git repo: https://github.com/vu-fss/rdm
 -->
 
 ## Introduction
 
 As a faculty committed to excellence in the quality of the research our staff and students undertake, it is essential to have guidelines on good practice in Research Data Management (RDM) as part of our framework to support the integrity of our research. These FSS guidelines serve both as a means of developing and supporting a culture of good practice in data management and demonstrating that we are committed to a culture and environment where high standards are encouraged and expected.
 
-The purpose of these guidelines is to reduce work pressure by condensing the various, and often conflicting, regulations into one cohesive set of procedures that ensure maximum compliance. The list below contains the regulations that these guidelines are based on. Since there are often conflicts between the regulations, the list includes a comparison between each item and these guidelines, so that any deviation from the regulation is made explicit.
+The purpose of these guidelines is to reduce work pressure by condensing the various, and often conflicting, regulations into one cohesive set of procedures that ensure maximum compliance. Details on the various underlying policies can be found below.
 
-<!---
-	Seda had nog wat interessants gevonden
--->
-<!--
-	EB: eScience Center: FAIR principles for research software
-
-	https://www.esciencecenter.nl/news/fair-principles-for-research-software-released/
--->
-
-<!--
-	Missing code of conduct of Vereniging van Bestuurskunde 
--->
-
-- [General Data Protection Regulation (GDPR, 2018)][gdpr] (GDPR is too large to include a point-by-point comparison here.)
-- [Netherlands Code of Conduct for Research Integrity , Standards for good research practices (2018)][nlcoc] ([Comparison][fss-coc])
-- [VU central RDM policy (2018)][vu-rdm-policy] ([Comparison][fss-vu])
-- [Guideline for the archiving of academic research for faculties of behavioural and social sciences in the Netherlands (2022)][dsw-guidelines] (Public link not available yet, [Comparison][fss-dsw])
-- National Codes of conduct for relevant disciplines:
-	- Anthropology: [Guidelines for Anthropological Research: Data Management, Ethics and Integrity (2019)][ABV-guidelines] ([Comparison][fss-abv])
-	- Management Science and Business Administration: [Code of Ethics Academy of Management (undated)][aom-guidelines] ([Comparison][fss-aom])
-	- Political Science: [Beroepscode Nederlandse kring voor Wetenschap der Politiek (2008)][nkwp-guidelines] ([Comparison][fss-nkwp])
-	- Sociology: [Beroepscode Nederlandse Sociologische Vereniging (2002)][nsv-guidelines] ([Comparison][fss-nsv])
-
-- The [FAIR principles (2016)][fairprinciples] ([Comparison][fss-fair]).
 
 In this document, the following verbal forms are used:
 
@@ -47,9 +20,7 @@ In this document, the following verbal forms are used:
 - "can" indicates a possibility or a capability
 
 
-## To whom do these guidelines apply?
 
-These guidelines apply to all faculty staff members who conduct research in the context of a temporary or permanent employment contract, all PhD candidates who conduct research under the supervision of a professor, and all research master’s students. The guidelines do not apply to bachelor’s and one-year master’s students, unless their research results in an academic publication. Research conducted by bachelor’s and one-year master’s students falls under the formal responsibility of their supervisors. 
 
 ## Stepping stones for good data management
 <!--
@@ -141,6 +112,70 @@ If a researcher leaves the VU, the department head should work with the research
 #### Performance and appraisal reviews
 
 Adherence to these RDM guidelines will be discussed in performance and appraisal interviews. Formal final responsibility lies with the dean. 
+
+## To whom do these guidelines apply?
+
+These guidelines apply to all faculty staff members who conduct research in the context of a temporary or permanent employment contract, all PhD candidates who conduct research under the supervision of a professor, and all research master’s students. The guidelines do not apply to bachelor’s and one-year master’s students, unless their research results in an academic publication. Research conducted by bachelor’s and one-year master’s students falls under the formal responsibility of their supervisors. 
+
+## Underlying policies
+
+TThe list below contains the regulations that these guidelines are based on. Since there are often conflicts between the regulations, the list includes a comparison between each item and these guidelines, so that any deviation from the regulation is made explicit.
+
+<!---
+	Seda had nog wat interessants gevonden
+-->
+<!--
+	EB: eScience Center: FAIR principles for research software
+
+	https://www.esciencecenter.nl/news/fair-principles-for-research-software-released/
+-->
+
+<!--
+	Missing code of conduct of Vereniging van Bestuurskunde 
+-->
+
+
+```{r, include=FALSE}
+
+comparisons <-
+   read_csv("assets/policy_comparisons.csv")
+
+
+meta <-
+   read_csv("assets/policy_comparisons_meta.csv")
+
+render_table <- function(foldheaders = T){
+
+	for (i in 1:nrow(meta)){
+		if (foldheaders) {
+			cat("<details>\n\n")
+			cat(paste("<summary><b>",meta$code_name[i]),"</b></summary>\n\n")
+		} else {
+			cat(paste("### ",meta$code_name[i]),"\n\n")
+		}
+		cat(paste("**Date:**",meta$code_date[i],"\n\n"))
+		cat(paste("**Last reviewed:**",meta$accessed_on[i],"\n\n"))
+		cat(paste("**URL:**",meta$url[i],"\n\n"))
+
+		comparisons %>%
+			filter(id == meta$id[i]) %>%
+			select(code,fsw) %>%
+			kable(col.names = c(meta$short_name[i],"FSS"),striped = T,escape = F) %>%
+			print()
+		cat("\n")
+		if (foldheaders) {
+			cat("</details>\n\n")
+		}
+	}
+
+
+}
+
+```
+
+```{r, echo=F, message = FALSE, results="asis"}
+	render_table(foldheaders=T)
+```
 
 
 ## Abbreviations

@@ -29,14 +29,34 @@ local({r <- getOption("repos")
 })
 ```
 
-# (PART\*) Intro {-}
+# (PART\*) Getting Started Guide {-}
 
-# About
-
-Welcome to the RDM pages of VU FSS. These pages contain the latest updates to policies and guides, maintained by the faculty Data Steward.
+# Index
 
 
-
+1. **Plan & Design**
+  - [External Funding Opportunities and Support (R & M)](#external-funding)
+  - [Content for proposals: Ethics, Privacy, RDM](#proposal-content-rdm)
+  - Budget 
+  - Impact
+2. **Starting a new project (Time to Grant)**
+  - [Awarded, then what?](#awarded-then-what)
+  - [Ethics, Data Management and Privacy](#new-rdm)
+3. **Managing you ongoing projects**
+  - [Changes](#ongoing-changes)
+  - [RDM: Data Organization](#ongoing-rdm)
+4. **Reporting,  publishing, and Impact**
+  - [PURE](#completed-pure)
+  - [VU FSS guidelines for archiving data](#completed-rdm)
+5. **Knowledge and Guidelines**
+  - [Templates](#templates)
+  - RDM
+    - [Data Management Policy](#rdm-policy)
+    - [RDM FAQ](#rdm-faq)
+    - [RDM Tools](#rdm-tools)
+    - [A Guide to FAIR data](#rdm-fair)
+  - Ethics Review
+  - Privacy
 
 
 <!---

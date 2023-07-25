@@ -1,4 +1,6 @@
-# Templates
+# (PART\*) Knowledge and Guidelines {-}
+
+# Templates {#templates}
 
 ## Data Management Plans
 
